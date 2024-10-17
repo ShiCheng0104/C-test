@@ -31,7 +31,7 @@ namespace adas
         ASSERT_EQ(target, executor->Query()) ;
     }
 
-  /*  TEST(ExecutorTest, should_return_x_plus_1_given_command_is_M_and_facing_is_E)
+    TEST(ExecutorTest, should_return_x_plus_1_given_command_is_M_and_facing_is_E)
     {
         std::unique_ptr<Executor> executor(Executor::NewExecutor({0, 0, 'E'})); // 给了初始姿势
         // when
@@ -41,7 +41,7 @@ namespace adas
         const Pose target({1, 0, 'E'});
         ASSERT_EQ(target, executor->Query());
     }
-*/
+
 } // namespace adas
 
 
